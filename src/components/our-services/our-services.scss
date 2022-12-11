@@ -1,0 +1,33 @@
+.ourServices {
+    margin-top: 12%;
+
+    & h1 {
+        color: #FFAE2B;
+    }
+
+    &__list {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+
+        &__item {
+            &:hover {
+                transform: scale(0.9);
+                transition: all 0.25s;
+            }
+
+            border: 1px solid #4B4136;
+            text-align: left;
+            padding: 5%;
+
+            &-img {
+                max-width: 30%;
+            }
+
+            & h3 {
+                color: #FFAE2B;
+                margin: 5% 0 2.5% 0;
+            }
+        }
+    }
+}

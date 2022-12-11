@@ -1,0 +1,35 @@
+.templatePages {
+    margin-top: 10%;
+
+
+    & h1 {
+        color: #FFAE2B;
+    }
+
+    &__list {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+
+
+        &__item {
+            margin: 3%;
+            border: 1px solid #4B4136;
+            padding: 10%;
+
+            &:hover {
+                transform: scale(0.9);
+                transition: all 0.25s;
+            }
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    .templatePages {
+        &__list {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

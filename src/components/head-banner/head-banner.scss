@@ -1,0 +1,31 @@
+.headBanner {
+    background: url('./../../assets/images/headBanner.png') no-repeat;
+    background-size: cover;
+    padding: 9% 0 14.5% 0;
+
+
+    & h1 {
+        color: #FFF;
+    }
+
+    &__title {
+        color: #FFAE2B;
+        margin-bottom: 1%;
+    }
+
+    &__btn {
+
+        background: #FFAE2B;
+        color: #000;
+        margin: 3% auto 0 auto;
+        padding: 1% 2%;
+        max-width: 10%;
+
+
+        &:hover {
+            transform: scale(1.1);
+            transition: all 0.25s;
+        }
+
+    }
+}

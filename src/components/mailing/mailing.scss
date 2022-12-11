@@ -1,0 +1,60 @@
+.mailing {
+    margin-top: 10%;
+
+    & h1 {
+        color: #FFAE2B;
+        margin-bottom: 3%;
+    }
+
+    &__btn1,
+    &__btn2 {
+        margin: 0 auto;
+        max-width: 35%;
+        padding: 1% 1%;
+        cursor: pointer;
+    }
+
+    &__btn1:hover,
+    &__btn2:hover {
+        text-decoration: underline;
+    }
+
+    &__btn1 {
+        margin-top: 7%;
+        border: 1px solid #4B4136;
+        color: #FFAE2B;
+
+    }
+
+    &__btn2 {
+        color: #181511;
+        background: #FFAE2B;
+        border: 1px solid #FFAE2B;
+        margin-bottom: 2%;
+    }
+
+    &__media {
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 1%;
+
+        & a {
+            width: 3%;
+            border: 1px solid #4B4136;
+            padding: 1% 2%;
+        }
+
+        & a:hover {
+            transform: scale(1.1);
+            transition: all 0.25s;
+        }
+
+        & a img {
+            width: 70%;
+            height: 70%;
+        }
+
+    }
+}
