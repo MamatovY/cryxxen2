@@ -7,7 +7,7 @@ import cross from './../../assets/images/cross.svg'
 
 
 const Header = () => {
-    const [menuActive, setMenuActive] = useState(true)
+    const [menuActive, setMenuActive] = useState(false)
 
     return (
         <>
